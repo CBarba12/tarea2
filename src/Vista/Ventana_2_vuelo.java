@@ -9,6 +9,7 @@ import javax.swing.JComboBox;
 import javax.swing.JTable;
 import javax.swing.JTextField;
 import javax.swing.table.DefaultTableModel;
+import Controlador.*;
 
 /**
  *
@@ -65,6 +66,11 @@ public class Ventana_2_vuelo extends javax.swing.JFrame {
         jLabel2.setText("Origen");
 
         combox_origen_ventana2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Selecione" }));
+        combox_origen_ventana2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                combox_origen_ventana2MouseClicked(evt);
+            }
+        });
 
         jLabel3.setText("Destino");
 
@@ -259,6 +265,10 @@ public class Ventana_2_vuelo extends javax.swing.JFrame {
     private void boton_agregar_EscalaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton_agregar_EscalaActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_boton_agregar_EscalaActionPerformed
+
+    private void combox_origen_ventana2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_combox_origen_ventana2MouseClicked
+       
+    }//GEN-LAST:event_combox_origen_ventana2MouseClicked
 
     /**
      * @param args the command line arguments

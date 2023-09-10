@@ -35,7 +35,7 @@ public class Ciudad {
 
  
 
-    public String getNombre_vuelo() {
+    public String getNombre_Ciudad() {
         return nombre_vuelo;
     }
 

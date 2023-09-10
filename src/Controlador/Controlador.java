@@ -125,6 +125,8 @@ public class Controlador {
         }
     }
     
+    // --------------------------------------------------ventana 2----------------------------------------------------------
+
      public static void AGREGAR_Vuelo() {
      int identificador;
      String Ciudad_Orige;
@@ -154,11 +156,29 @@ public class Controlador {
 
     }
 
+     
+     // --------------------------------------------------ventana 2----------------------------------------------------------
+// public static void agregar_combox(){
+//
+//      ventana2.getCombox_origen_ventana2().removeAllItems();
+//
+//                  for (int i = 0; i < modelo.getList_Ciudades().size(); i++) {
+//                    ventana2.getCombox_origen_ventana2().addItem(modelo.getList_Ciudades().get(i).getNombre_Ciudad()+"("+modelo.getList_Ciudades().get(i).getGMT()+")");
+//                    ventana2.getCombox_destino_ventana2().addItem(modelo.getList_Ciudades().get(i).getNombre_Ciudad()+"("+modelo.getList_Ciudades().get(i).getGMT()+")");
+//                   }
+//}
+
+
+     
+     
+     
+     
+     
+     
 }
 
 
 
-// --------------------------------------------------ventana 2----------------------------------------------------------
 
 
 
